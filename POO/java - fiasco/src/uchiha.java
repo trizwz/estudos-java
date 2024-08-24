@@ -11,6 +11,7 @@ public class uchiha extends ninja {
     }
 
     public void ataqueBase(int nivelDeChacra){
+
         if(nivelDeChacra > 2){
             System.out.println("Susano Ativado");
         }

@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args){
-
         //obj1
         uzumaki naruto = new uzumaki();
         naruto.setNome("Naruto Uzumaki");
