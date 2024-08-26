@@ -11,7 +11,6 @@ public class aula03TiposPrimitivosExercicios {
         String date = "15.03.2025";
         /*System.out.println("I'm "+name+", living in the address: "+address+". Confirm that I " +
         *        "receive a salary of: "+salary+", on this day: "+date);*/
-
         //or
         String anwser = "I'm "+name+", living in the address: "+address+". Confirm that I " +
                 "receive a salary of: "+salary+", on this day: "+date;
