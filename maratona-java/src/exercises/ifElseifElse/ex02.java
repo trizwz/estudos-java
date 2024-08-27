@@ -11,9 +11,9 @@ public class ex02 {
         age = number.nextInt();
 
         if (age >= 18){
-            System.out.println("Você pode beber alcoól.");
+            System.out.println("Você pode beber alcool.");
         } else if (age < 18) {
-            System.out.println("Você não pode beber alcoól");
+            System.out.println("Você não pode beber alcool");
         } else {
             System.out.println("Insira a sua idade novamente.");
         }

@@ -32,8 +32,8 @@ public class aula04Operadores {
         float salary = 3500.0F;
         boolean isInsideOfTheLawOlderThanThirty = age >= 30 && salary > 4512;
         boolean isInsideOfTheLawYoungerThanThirty = age < 30 && salary > 3381;
-        System.out.println("Mais velho que trinta: " + isInsideOfTheLawOlderThanThirty);
-        System.out.println("Mais novo que trinta: " + isInsideOfTheLawYoungerThanThirty);
+        System.out.println("older: " + isInsideOfTheLawOlderThanThirty);
+        System.out.println("younger: " + isInsideOfTheLawYoungerThanThirty);
 
         //|| (or)
         double bankAccountBalance1 = 200;
