@@ -1,8 +1,8 @@
-package exercises.ifElseifElse;
+package exercises;
 
 import java.util.Scanner;
 
-public class ex02 {
+public class ex02IfElse {
     public static void main(String[] args) {
         //programa onde o sistema vê se o usuário pode beber bebida alcoólica.
         Scanner number = new Scanner(System.in);

@@ -1,8 +1,8 @@
-package exercises.ifElseifElse;
+package exercises;
 
 import java.util.Scanner;
 
-public class ex01 {
+public class ex01IfElse {
     public static void main(String[] args) {
         Scanner number = new Scanner(System.in);
         int num;
