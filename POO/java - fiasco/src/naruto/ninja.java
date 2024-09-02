@@ -1,3 +1,5 @@
+package naruto;
+
 public class ninja {
     private String nome;
     String aldeia;

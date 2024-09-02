@@ -1,3 +1,5 @@
+package naruto;
+
 public class uchiha extends ninja {
     String nivelDoSharingan = "Sharingan 2";
 

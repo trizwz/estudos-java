@@ -1,3 +1,5 @@
+package naruto;
+
 public class uzumaki extends ninja {
 
     boolean temBiju;
