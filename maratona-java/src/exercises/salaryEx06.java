@@ -18,7 +18,7 @@ public class salaryEx06 {
         if (salary <= 1400 && years > 1) {
             System.out.println("Você receberá um aumento de 500 reais.");
             System.out.println("Seu novo salário: " + newSalary1);
-        } else if (salary == 1400 && years < 1) {
+        } else if (salary == 1400 && years > 1) {
             System.out.println("Você receberá um aumento de 250 reais");
             System.out.println("Seu novo salário: " + newSalary2);
         } else {
