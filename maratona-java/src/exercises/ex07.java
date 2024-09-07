@@ -14,7 +14,7 @@ public class ex07 {
         Scanner celsius = new Scanner(System.in);
         int c = celsius.nextInt();
 
-        //using switch
+        /*using switch
         switch (typeTemp){
             default:
                 System.out.println("Temperatura"+c);
@@ -31,9 +31,18 @@ public class ex07 {
             case 4:
                 System.out.println("Temperatura em Kelvin: "+c + 273.1);
                 break;
+        }*/
+
+         /*using if/elseif*/
+        if(typeTemp == 1){
+            System.out.println("Temperatura em Fahrenheit: "+c * 1.8 + 32);
+        } else if(typeTemp == 2){
+            System.out.println("Temperatura em Réaumur: "+c * 0.8);
+        } else if(typeTemp == 3){
+            System.out.println("Temperatura em Rankine: "+typeTemp * 1.8 + 32 + 459.67);
+        } else if (typeTemp == 4) {
+            System.out.println("Temperatura em Kelvin: "+c + 273.1);
         }
-
-
 
     }
 }
