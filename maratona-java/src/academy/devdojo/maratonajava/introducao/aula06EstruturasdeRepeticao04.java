@@ -16,4 +16,3 @@ public class aula06EstruturasdeRepeticao04 {
         }
     }
 }
-0
