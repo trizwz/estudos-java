@@ -7,13 +7,13 @@ import java.util.Scanner;
 
 public class incomeTaxEx05 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         double tax1 = 9.70 / 100;
         double tax2 = 37.35 / 100;
         double tax3 = 49.50 / 100;
         double salary;
         double taxValue = 0;
 
-        Scanner sc = new Scanner(System.in);
         System.out.print("Informe seu salário: ");
         salary = sc.nextDouble();
 
@@ -26,5 +26,6 @@ public class incomeTaxEx05 {
         }
 
         System.out.println("Você terá que pagar: " + taxValue);
+        sc.close();
     }
 }
