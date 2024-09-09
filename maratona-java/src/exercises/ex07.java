@@ -14,35 +14,28 @@ public class ex07 {
         Scanner celsius = new Scanner(System.in);
         int c = celsius.nextInt();
 
-        /*using switch
-        switch (typeTemp){
-            default:
-                System.out.println("Temperatura"+c);
-                break;
-            case 1:
-                System.out.println("Temperatura em Fahrenheit: "+c * 1.8 + 32);
-                break;
-            case 2:
-                System.out.println("Temperatura em Réaumur: "+c * 0.8);
-                break;
-            case 3:
-                System.out.println("Temperatura em Rankine: "+typeTemp * 1.8 + 32 + 459.67);
-                break;
-            case 4:
-                System.out.println("Temperatura em Kelvin: "+c + 273.1);
-                break;
-        }*/
 
-         /*using if/elseif*/
-        if(typeTemp == 1){
-            System.out.println("Temperatura em Fahrenheit: "+c * 1.8 + 32);
-        } else if(typeTemp == 2){
-            System.out.println("Temperatura em Réaumur: "+c * 0.8);
-        } else if(typeTemp == 3){
-            System.out.println("Temperatura em Rankine: "+typeTemp * 1.8 + 32 + 459.67);
-        } else if (typeTemp == 4) {
-            System.out.println("Temperatura em Kelvin: "+c + 273.1);
-        }
+       switch (typeTemp){
+           default:
+               System.out.println("Temperatura: "+c);
+               break;
+           case 1:
+               double farenheit = Math.round(c * 1.8 + 32);
+               System.out.println("Temperatura em Fahrenheit: "+ farenheit);
+               break;
+           case 2:
+               double reaumur = Math.round(c* 0.8);
+               System.out.println("Temperatura em Réaumur: "+reaumur);
+               break;
+           case 3:
+               double rankine =  Math.round((c + 273.15)* 9/5 );
+               System.out.println("Temperatura em Rankine:"+rankine);
+               break;
+           case 4:
+               double kelvin = Math.round(c  + 273.1);
+               System.out.println("Temperatura em Kelvin: "+kelvin);
+               break;
+       }
 
     }
 }
