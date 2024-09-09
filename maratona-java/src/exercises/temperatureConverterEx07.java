@@ -2,7 +2,7 @@ package exercises;
 
 import java.util.Scanner;
 
-public class ex07 {
+public class temperatureConverterEx07 {
     public static void main(String[] args) {
         //conversor de temperatura
         System.out.println("Escolha um tipo de temperatura: ");
