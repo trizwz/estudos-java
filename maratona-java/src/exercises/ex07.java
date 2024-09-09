@@ -11,9 +11,7 @@ public class ex07 {
         int typeTemp = typeTemperature.nextInt();
 
         System.out.println("Coloque o valor da temperatura: ");
-        Scanner celsius = new Scanner(System.in);
-        int c = celsius.nextInt();
-
+        int c = typeTemperature.nextInt();
 
        switch (typeTemp){
            default:
@@ -29,7 +27,7 @@ public class ex07 {
                break;
            case 3:
                double rankine =  Math.round((c + 273.15)* 9/5 );
-               System.out.println("Temperatura em Rankine:"+rankine);
+               System.out.println("Temperatura em Rankine: "+rankine);
                break;
            case 4:
                double kelvin = Math.round(c  + 273.1);
