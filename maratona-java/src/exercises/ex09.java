@@ -20,6 +20,6 @@ public class ex09 {
 
         System.out.println("A média salarial da empresa é:" + media +"\nSalário dos funcionários:\nFuncionário 1: "+f1
                 +"\nFuncionário 2: " +f2+ "\nFuncionário 3: "+f3+"\nFuncionário 4: "+f4);
-
+        sc.close();
     }
 }
