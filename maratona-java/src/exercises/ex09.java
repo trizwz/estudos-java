@@ -10,12 +10,16 @@ public class ex09 {
          número de funcionarios : 4*/
         Scanner sc = new Scanner(System.in);
         double f1, f2, f3, f4, media;
+
+        System.out.println("Insira o salário dos quatro funcionários:");
         f1 = sc.nextDouble();
         f3 = sc.nextDouble();
         f2 = sc.nextDouble();
         f4 = sc.nextDouble();
         media = f1 + f2 + f3 + f4 / 4;
 
-        System.out.println("");
+        System.out.println("A média salarial da empresa é:" + media +"\nSalário dos funcionários:\nFuncionário 1: "+f1
+                +"\nFuncionário 2: " +f2+ "\nFuncionário 3: "+f3+"\nFuncionário 4: "+f4);
+
     }
 }
