@@ -14,6 +14,8 @@ public class ex09 {
         f3 = sc.nextDouble();
         f2 = sc.nextDouble();
         f4 = sc.nextDouble();
+        media = f1 + f2 + f3 + f4 / 4;
 
+        System.out.println("");
     }
 }
